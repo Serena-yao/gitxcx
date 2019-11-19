@@ -1,0 +1,48 @@
+//index.js
+//获取应用实例
+const app = getApp()
+
+Page({
+  data:{
+    banners:[
+      '/assets/rabbits.jpg','/assets/q.jpg',
+      '/assets/w.jpg','/assets/e.jpg',
+      '/assets/r.jpg','/assets/t.jpg',
+      '/assets/y.jpg','/assets/x.jpg',
+      '/assets/s.jpg'
+    ],
+    list:[{
+      id:1,
+      title:'圣诞奇妙味',
+      image:'/assets/rabbits.jpg'
+    },{
+      id:2,
+      title:'DIY圣诞心意',
+      image:'/assets/x.jpg'
+    },{
+      id:3,
+      title:'为努力喝彩',
+      image:'/assets/s.jpg'
+    },{
+      id:4,
+      title:'感恩有你',
+      image:'/assets/y.jpg'
+    },{
+      id:5,
+      title:'心动传情',
+      image:'/assets/t.jpg'
+    },{
+      id:6,
+      title:'可爱第一名',
+      image:'/assets/r.jpg'
+    },{
+      id:7,
+      title:'咖啡有你',
+      image:'/assets/e.jpg'
+    },{
+      id:8,
+      title:'生日快乐',
+      image:'/assets/w.jpg'
+    }]
+  }
+})
